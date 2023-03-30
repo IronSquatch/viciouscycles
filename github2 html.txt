@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!-- This is the final WEB-140 project, created by Matt Henry
+    This is the Vicious Cycles page, Last updated on 3-22-2023 -->
+<html lang="EN">
+<head>
+    <title> Vicious Cycles v.alpha 3-22-2023 </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://wcet.waketech.edu/mchenry/WEB140/project/css/style.css" />
+    <style>
+
+        .body {
+        font-size: 4em;
+        background-color: #E7FBFB
+        font-color: #0105B5;
+        align-content: center;
+        }
+
+        .container {
+          position: relative; 
+          width: 50%;
+          right: 20%;
+          left: 20%;
+        }
+        
+        .image {
+          display: block;
+          width: 100%;
+          height: auto;
+        }
+        
+        .overlay {
+          position: absolute;
+          bottom: 100%;
+          left: 0;
+          right: 0;
+          background-color: #169a5a;
+          overflow: hidden;
+          width: 100%;
+          height: 0;
+          transition: .5s ease;
+        }
+        
+        .container:hover .overlay {
+          bottom: 0;
+          height: 100%;
+        }
+        
+        .text {
+          white-space: nowrap; 
+          color: white;
+          font-size: 20px;
+          position: absolute;
+          overflow: hidden;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+        }
+
+        .ServiceDiv {
+         background-color: #82CAFF;
+        text-align: center;
+}
+</style>
+</head>
+<body>
+
+    <!-- Header -->
+             
+    <header>
+        <img src="https://wcet.waketech.edu/mchenry/WEB140/project/images/vclogo.png">
+    </header>
+
+<!-- Navigation -->
+    <nav>        
+        <p><a href="https://wcet.waketech.edu/mchenry/WEB140/project/html/buying.html" style="color:#ffffff;" target="_blank" rel="noopener noreferrer">Buying a Cycle</a> &nbsp; &#9475; &nbsp;
+        <a href="https://wcet.waketech.edu/mchenry/WEB140/project/html/sales.html" style="color:#ffffff;" target="_blank" rel="noopener noreferrer">Sales</a> &nbsp; &#9475; &nbsp;
+        <a href="https://wcet.waketech.edu/mchenry/WEB140/project/html/service.html" style="color:#ffffff;" target="_blank" rel="noopener noreferrer">Service</a> &nbsp; &#9475; &nbsp;
+        <a href="https://wcet.waketech.edu/mchenry/WEB140/project/html/about.html" style="color:#ffffff;" target="_blank" rel="noopener noreferrer">About</a> </p>
+    </nav>
+
+<!-- Content -->   
+    <main>
+            <!--buying.jpg Credit: "Silhouette of Bicycle on Grass" by Pixabay is marked with CC0 at Pexels. -->
+            <!--sales.jpg Credit: "Man in Brown Jacket Leaning on Black Board" by Fauxels is marked Free to use at Pexels.com. -->
+            <!--service.jpeg Credit: "A Man Pumping Air into the Bike Tire" by Anastasia Shuraeva is marked Free to use at Pexels.com.-->
+            <!--about.jpeg Credit: "Man Fixing His Bike" by Mateusz Dach is marked Free to use at Pexels.com. -->
+            <!-- Image overlay tutorial from: https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_slidetop-->
+
+
+    <div class="ServiceDiv" ><h1>Offerings</h1>
+    <h4>From the newest rider to the seasoned cyclist, Vicious Cycles has something for everyone!</h4></div>
+
+ 
+    <a href="https://wcet.waketech.edu/mchenry/WEB140/project/html/buying.html"> <img src="http://wcet.waketech.edu/mchenry/WEB140/project/images/buying.png" alt="Bicycles against a sunset" class="image"></a>
+
+    <a href="https://wcet.waketech.edu/mchenry/WEB140/project/html/sales.html"> <img src="http://wcet.waketech.edu/mchenry/WEB140/project/project/images/sales.png" alt="A group of sales people in an office" class="image"></a> 
+
+    <a href="https://wcet.waketech.edu/mchenry/WEB140/project/html/service.html"> <img src="http://wcet.waketech.edu/mchenry/WEB110/project/project/images/service.png" alt="A person pumping air into a bicycle tire" class="image"></a> 
+
+    <a href="https://wcet.waketech.edu/mchenry/WEB140/project/html/about.html"> <img src="http://wcet.waketech.edu/mchenry/WEB110/project/media/project/about.png" alt="A person standing next to a bicycle in a grassy field" class="image"></a> 
+
+            
+    </main>
+
+    <!-- Footer -->
+    <footer>     
+        <p>&copy; Copyright 2023. All Rights Reserved. </p> 
+        <p>mchenry *at* my.waketech.edu</p>  
+    </footer>
+    
+</body>
+</html>
